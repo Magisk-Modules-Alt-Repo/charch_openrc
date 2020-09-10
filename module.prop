@@ -1,0 +1,6 @@
+id=charch_softrc
+name=ChArch softrc
+version=v1.0
+versionCode=1
+author=tytydraco
+description=Initialize softrc for the default ChArch rootfs instance.
