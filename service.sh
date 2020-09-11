@@ -11,5 +11,8 @@ done
 sleep 120
 
 charch -k -c "/usr/bin/env bash" << EOF
-	curl -s https://raw.githubusercontent.com/tytydraco/softrc/master/softrc | bash -s start
+	openrc -n boot
+	openrc -n default
+	openrc -n nonetwork
+	openrc -n single
 EOF
