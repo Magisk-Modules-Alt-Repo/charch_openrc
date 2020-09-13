@@ -10,7 +10,7 @@ done
 # Sleep an additional 2m to ensure init is finished
 sleep 120
 
-charch -k -c "/usr/bin/env bash" << EOF
+charch -c "/usr/bin/env bash" << EOF
 	openrc -n boot
 	openrc -n default
 	openrc -n nonetwork
